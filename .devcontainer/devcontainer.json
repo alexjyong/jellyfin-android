@@ -8,7 +8,6 @@
         "jdkDistro": "oracle"
       }
     },
-    "postCreateCommand": "chmod +x gradlew && cp revoltbuild.properties.example revoltbuild.properties && cp sentry.properties.example sentry.properties && git submodule update --init --recursive",
     "customizations": {
       "vscode": {
         "extensions": [
